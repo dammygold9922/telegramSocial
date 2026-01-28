@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-10p(&)#307u^-!y-#43sdonb)djm5vt4*!3w1)=j*=+qxf()nz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["telegramsocial.onrender.com",]
 
 
 # Application definition

@@ -464,15 +464,15 @@ def topup(request):
         return HttpResponse("Topup Failed")
     
 
-from telegramApp.models import Groups
+# from telegramApp.models import Groups
 
-seen = set()
-for obj in Groups.objects.all():
-    if obj.group_id in seen:
-        print("Deleting duplicate:", obj.group_id)
-        obj.delete()
-    else:
-        seen.add(obj.group_id)
+# seen = set()
+# for obj in Groups.objects.all():
+#     if obj.group_id in seen:
+#         print("Deleting duplicate:", obj.group_id)
+#         obj.delete()
+#     else:
+#         seen.add(obj.group_id)
 
 
 
